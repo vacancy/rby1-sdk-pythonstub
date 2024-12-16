@@ -10,12 +10,12 @@ This is a Python SDK stub for interacting with the RBY1 robot. It is generated f
    cd rby1-sdk-pythonstub
    ```
 
-	2.	Install the package using pip:
+2.	Install the package using pip:
    ```bash
    pip install .
    ```
 
-Usage
+## Usage
 
 After installation, you can import and use the SDK stub in your Python projects:
 
