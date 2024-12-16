@@ -5,15 +5,15 @@ This is a Python SDK stub for interacting with the RBY1 robot. It is generated f
 ## Installation
 
 1. Clone the repository:
-   ```bash
-   git clone https://github.com/vacancy/rby1-sdk-pythonstub.git
-   cd rby1-sdk-pythonstub
-   ```
+    ```bash
+    git clone https://github.com/vacancy/rby1-sdk-pythonstub.git
+    cd rby1-sdk-pythonstub
+    ```
 
 2.	Install the package using pip:
-   ```bash
-   pip install .
-   ```
+    ```bash
+    pip install .
+    ```
 
 ## Usage
 
@@ -23,4 +23,3 @@ After installation, you can import and use the SDK stub in your Python projects:
 import rby1_sdk
 rby1_sdk.  # Tab to get completions
 ```
-
