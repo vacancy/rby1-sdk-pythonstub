@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rby1_sdk"
+version = "0.1.0"
+description = "A Python SDK for interacting with RBY1 robot."
+readme = { file = "README.md", content-type = "text/markdown" }
+license = { file = "LICENSE" }
+authors = []
+maintainers = []
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent"
+]
+keywords = ["SDK", "RBY1", "bindings", "robotics"]
+dependencies = [
+    "numpy>=1.20",
+    "requests>=2.25",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+
+[tool.setuptools]
+package-data = { "rby1_sdk" = ["py.typed"] }
+zip-safe = false  # Recommended for typed packages
+
+[tool.setuptools.packages.find]
+include = ["rby1_sdk"]
+
+[tool.mypy]
+files = "rby1_sdk"
+ignore_missing_imports = true
